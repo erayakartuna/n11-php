@@ -1,6 +1,6 @@
 {
-  "name": "eray-akartuna/n11Client",
-  "description": "Soap Client for N11 Web Services",
+  "name": "eray-akartuna/n11client",
+  "description": "n11.com web service client",
   "keywords": [
     "n11",
     "soap",
