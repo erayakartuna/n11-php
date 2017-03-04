@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         syntaxCheck="false">
+    <testsuites>
+        <testsuite name="Tests">
+            <directory suffix=".php">Tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <var name="app_key" value="xxxx-xxxx-xxx-xxxxx" />
+        <var name="app_secret" value="xxxxxx" />
+        <var name="soap_test_wsdl" value="https://api.n11.com/ws/CityService.wsdl" />
+        <var name="soap_test_wsdl_method" value="getCities" />
+    </php>
+</phpunit>
